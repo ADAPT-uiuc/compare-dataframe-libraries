@@ -42,6 +42,8 @@ cd datasets
 ./download_datasets.sh
 ```
 
+Make sure that you see both `iris.csv` and `yellow_tripdata_2015-01.csv`.
+
 ## Reproducing numbers
 You should be able to run any of the notebooks with Jupyter. You should run a notebook multiple times
 because Jupyter virtualizes many things, including e.g., the disk. Note that the numbers may be quite
