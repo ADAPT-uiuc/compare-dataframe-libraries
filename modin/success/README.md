@@ -1,0 +1,1 @@
+The experiments in this folder were performed so that we could verify that we are running Modin correctly. It contains examples from the Modin website and we do get speedups similar to those shown online.
