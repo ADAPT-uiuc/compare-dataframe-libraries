@@ -38,7 +38,8 @@ pip install -r requirements.txt
 
 ### Download datasets
 ```bash
-./datasets/download_datasets.sh
+cd datasets
+./download_datasets.sh
 ```
 
 ## Reproducing numbers
