@@ -44,8 +44,14 @@ cd datasets
 
 Make sure that you see both `iris.csv` and `yellow_tripdata_2015-01.csv`.
 
+### Running notebooks
+
+You should be able to run any of the notebooks. However, running them with `ipython` through the terminal will not be useful. You need to run it through a notebook environment. Below are some alternatives:
+- Launch Jupyter remotely ([tutorial](https://medium.com/finbox/connecting-jupyter-notebook-to-aws-ec2-instance-bba0af52a6b8))
+- Run notebooks through VSCode directly.
+
 ## Reproducing numbers
-You should be able to run any of the notebooks with Jupyter. You should run a notebook multiple times
-because Jupyter virtualizes many things, including e.g., the disk. Note that the numbers may be quite
-different from run to run and from the paper. We could not avoid this variability. However, the _conclusions_
-should be the same, namely the orders of magnitude of slowdowns and speedups mentioned in the paper should be the same.
+You should run a notebook multiple times because Jupyter virtualizes many things, including e.g., the disk.
+Note that the numbers may be quite different from run to run and from the paper. We could not avoid this variability.
+However, the _conclusions_ should be the same, namely the orders of magnitude of slowdowns and speedups 
+mentioned in the paper should be the same.
